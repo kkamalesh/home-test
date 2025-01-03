@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { MovieService } from './movieService';
+import { MovieService } from '../services/movieService';
 
 jest.mock('axios');
 const mockedAxios = axios as jest.Mocked<typeof axios>;

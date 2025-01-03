@@ -1,5 +1,5 @@
 import express from 'express';
-import { MovieService } from './services/movieService';
+import { MovieService } from '../services/movieService';
 
 const app = express();
 const movieService = new MovieService();

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { Movie } from '../src/types';
-import { config } from '../src/config';
+import { config } from '../src/app';
   
   export class MovieService {
     private headers = {
